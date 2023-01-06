@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace sans-serif;
+}
+
+/* header styles */
+
+.header-container {
+    width: 100%;
+    height: 750px;
+    background-image: url('../images/banner/banner3.png');
+    text-align: right;
+}
+
+.header-title {
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 200px 200px 30px 150px;
+}
+
+.header-description {
+    color: aliceblue;
+    font-size: 18px;
+    margin: 0 200px 30px 150px;
+}
+
+.btn-primary {
+    height: 45px;
+    width: 100px;
+    margin: 0 200px 30px 150px;
+    color: rgb(4, 73, 123);
+    background: white;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* my failure section styles */
+
+.about-failure {
+    display: flex;
+    gap: 90px;
+    height: 750px;
+    margin: 130px 130px 0 130px;
+    padding: 0 100px;
+}
+
+.section-image img {
+    width: 500px;
+    height: 600px;
+}
+
+.section-info {
+    margin-top: 170px;
+    text-align: left;
+}
+
+.section-title {
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.section-description {
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+}
+
+ul {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+ul .failure-list {
+    color: rgb(102, 102, 102);
+    list-style: url('../images/icons/icons8-check-mark-18.png');
+    padding-bottom: 8px;
+}
+
+/* my plan styles */
+
+.my-plan h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 100px 150px;
+}
+
+.plan-icon {
+    height: 85px;
+    width: 85px;
+    margin-bottom: 10px;
+}
+
+.plan-title {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.plan-description {
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+}
+
+/* advice styles  */
+
+.advice {
+    width: 1200px;
+    height: 300px;
+    margin: 80px 200px;
+    background-image: url('../images/watch.png'), url('../images/gradient3.png');
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+
+.advice-section {
+    padding-top: 70px;
+    padding-left: 55px;
+}
+
+.advice-section .section-title {
+    color: aliceblue;
+}
+
+.btn-secondary {
+    height: 45px;
+    width: 100px;
+    color: rgb(4, 73, 123);
+    background: white;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* footer styles  */
+
+.footer {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-around; */
+    background: black;
+    width: 100%;
+    height: 500px;
+    padding-top: 120px;
+}
+
+.footer-title {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer-description {
+    margin-bottom: 10px;
+}
+
+.footer-icon a {
+    text-decoration: none;
+    
+}
+
+.footer-icon {
+    margin-top: 20px;
+}
+
+.contact-info {
+    padding: 120px 250px;
+}
+.contact-info p {
+  color: aliceblue;
+}
+
+.contact-details p{
+    text-decoration: none;
+}
+.subscribing-info {
+    margin-right: 70px;
+}
